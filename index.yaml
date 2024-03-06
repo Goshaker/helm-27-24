@@ -3,12 +3,32 @@ entries:
   jenkins-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-04T16:28:51.828351263Z"
+    created: "2024-03-06T19:30:08.672203262Z"
     description: A Helm chart for Kubernetes
-    digest: 94ba1ef105821c724e0c71283d44afe3bf34e7434468470d653106706dafb9c9
+    digest: 0151ca13e896f5f92a37a9048144e21ff0415defc80a11060b906a831326bc1d
     name: jenkins-app
     type: application
     urls:
-    - https://github.com/Goshaker/helm-27-24.git/helm-jenkins-releases/jenkins-app-0.1.0.tgz
+    - https://goshaker.github.io/helm-27-24/helm-jenkins-releases/jenkins-app-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-06T19:30:08.671588692Z"
+    description: A Helm chart for Kubernetes
+    digest: cf729e35c3810486b96c37a49c9c6270c6aebd081295953c6ae448ab5038c13a
+    name: jenkins-app
+    type: application
+    urls:
+    - https://goshaker.github.io/helm-27-24/helm-jenkins-releases/jenkins-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-06T19:30:08.670824031Z"
+    description: A Helm chart for Kubernetes
+    digest: fc84a0b05e8fe3868cc7434ebaf15dbe8a3c3d989cb127bf3611e4d8e08271c6
+    name: jenkins-app
+    type: application
+    urls:
+    - https://goshaker.github.io/helm-27-24/helm-jenkins-releases/jenkins-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-04T16:28:51.827764769Z"
+generated: "2024-03-06T19:30:08.669498077Z"
