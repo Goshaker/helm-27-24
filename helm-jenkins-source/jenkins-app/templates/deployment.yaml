@@ -2,7 +2,16 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: {{ .Values.namespace }}
---- 
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jenkins-secret
+  namespace: {{ .Values.namespace }}
+type: Opaque
+data:
+  password: bXlfcGFzcw==
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -105,10 +114,10 @@ data:
             - credentials:
               - usernamePassword:
                   description: "Githubuser"
-                  id: "some_randome"
-                  password: "XXXXXXXXXXX"
+                  id: "45789984"
+                  password: "bXlfcGFzcw=="
                   scope: GLOBAL
-                  username: "git_hub_user"
+                  username: "Goshaker"
         unclassified:
           location:
             adminAddress: "georgiy.ko@gmail.com"
